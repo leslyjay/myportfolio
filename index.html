@@ -3,81 +3,110 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Code MORE - Software developer portfolio showcasing front-end and back-end skills, including HTML, CSS, and Python projects."
-    />
-    <title>Code MORE - Portfolio</title>
+    <meta name="description" content="Code MORE - Software developer portfolio showcasing front-end and back-end skills, including HTML, CSS, and Python projects." />
+    <title>Code MORE - Lesly Mpate Juma</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   </head>
 
   <body>
-    <script src="script.js"></script>
-    <header>
-      <h1>Code MORE</h1>
-      <p>Software Developer</p>
-      <div class="profile-container">
-        <img
-          src="image3.jpg"
-          alt="Lesly, a software developer"
-          class="profile-img"
-        />   
+    <!-- Landing Page -->
+    <section id="landing">
+      <div class="landing-content">
+        <h1>Welcome to Code MORE</h1>
+        <h2>I’m <span class="highlight">Lesly Mpate Juma</span>, CEO of Code MORE</h2>
+        <p>Innovating the digital world with creative, scalable, and user-focused solutions.</p>
+        <a href="#portfolio" class="btn">Explore My Portfolio</a>
       </div>
-      
-      <nav aria-label="Main Navigation">
-        <nav class="navbar">
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#projects">Projects</a>
-          <a href="#testimonials">Testimonials</a>
-          <a href="#contact">Contact</a>
-          <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
-          <i class="fa fa-bars"></i>
-          </a>
-        </nav>        
-    </header>
-<main>
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      "Code More" is a dynamic programming business founded by Lesly, a passionate software developer with expertise in HTML, CSS, Python, and version control systems. We create efficient solutions with a focus on user experience and robust functionality.
-    </p>
-  </section>
+    </section>
 
-  <section id="services">
-    <h2>Services</h2>
-    <p>
-      At "Code More," we offer a comprehensive suite of services tailored to
-      meet the diverse needs of our clients. Our expertise in HTML, CSS,
-      Python, and version control enables us to deliver high-quality,
-      scalable, and efficient solutions.
-    </p>
-  </section>
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+      <header>
+        <h1>Code MORE</h1>
+        <p>Software Developer</p>
+        <div class="profile-container">
+          <img src="image3.jpg" alt="Lesly, a software developer" class="profile-img" />
+        </div>
+        <nav>
+          <div class="navbar">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+          </div>
+        </nav>
+      </header>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <p>Showcase of your previous work.</p>
-  </section>
+      <main>
+        <section id="introduction">
+          <div class="container">
+            <h2>Meet <span class="highlight">Lesly Mpate Juma</span></h2>
+            <p>
+              I am a highly skilled <strong>Software Developer</strong> and the visionary CEO of <strong>Code MORE</strong>.
+              With expertise in <strong>Python, Django, JavaScript, and USSD applications</strong>, I build powerful, 
+              scalable, and efficient software solutions that transform businesses.  
+            </p>
+            <p>
+              My passion is solving real-world problems using **technology**—helping startups, businesses, and individuals 
+              create robust applications that **enhance communication, automate workflows, and increase efficiency**.
+            </p>
+          </div>
+        </section>
+        
+        <section id="about">
+          <div class="container">
+            <h2>About <span class="highlight">Code MORE</span></h2>
+            <p>
+              Code MORE is a **software development brand** that delivers cutting-edge digital solutions. 
+              Our mission is to **empower businesses** by creating **custom web applications, automation tools, 
+              and backend systems** that drive efficiency and growth.
+            </p>
+            <p>
+              We specialize in **Django, API development, and USSD applications**, ensuring businesses can 
+              reach their customers seamlessly, even in underdeveloped regions where mobile technology is limited. 
+              Whether you need a **high-performance web platform** or an **intelligent financial system**, 
+              Code MORE is here to **bring your ideas to life**.
+            </p>
+          </div>
+        </section>
+        
 
-  <section id="testimonials">
-    <h2>Testimonials</h2>
-    <p>Client feedback and reviews.</p>
-  </section>
+        <section id="services">
+          <h2>Services</h2>
+          <p>At "Code MORE," we offer a comprehensive suite of services tailored to meet the diverse needs of our clients. Our expertise in HTML, CSS, Python, and version control enables us to deliver high-quality, scalable, and efficient solutions.</p>
+        </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <ul>
-      <li>Phone Number: +254794018914</li>
-      <li>Email: jumalesly40@gmail.com</li>
-      <li>Facebook: kiddie kiddie</li>
-    </ul>
-  </section>
-</main>
+        <section id="projects">
+          <h2>Projects</h2>
+          <p>Showcase of your previous work.</p>
+        </section>
 
-<footer aria-label="Website Footer">
-  <p>&copy; 2025 Code More</p>
-</footer>
+        <section id="testimonials">
+          <h2>Testimonials</h2>
+          <p>Client feedback and reviews.</p>
+        </section>
 
+        <section id="contact">
+          <h2>Contact</h2>
+          <div class="contact-info">
+            <p><i class="fas fa-phone"></i> +254794018914</p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:jumalesly40@gmail.com">jumalesly40@gmail.com</a></p>
+            <p><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/juma.lesly.16/" target="_blank">Juma Lesly</a></p>
+            <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/lesly-juma-210b72263/" target="_blank">Lesly on LinkedIn</a></p>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy; 2025 Code MORE</p>
+      </footer>
+    </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
