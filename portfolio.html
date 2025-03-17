@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Code MORE - Software developer portfolio showcasing front-end and back-end skills, including HTML, CSS, and Python projects."
+    />
+    <title>Code MORE - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+      <!-- Left Section (Fixed, Non-scrollable) -->
+      <div class="left-side">
+        <header>
+          <h1>Code MORE</h1>
+          <p>Software Developer</p>
+
+          <!-- Navigation Bar -->
+          <nav>
+            <div class="navbar">
+              <a href="#about">About</a>
+              <a href="#services">Services</a>
+              <a href="#projects">Projects</a>
+              <a href="#testimonials">Testimonials</a>
+              <a href="#contact">Contact</a>
+            </div>
+            <div class="icon" onclick="toggleMenu()">
+              <i class="fa fa-bars"></i>
+            </div>
+          </nav>
+        </header>
+      </div>
+
+      <!-- Center Section (Scrollable) -->
+      <div class="center-side">
+        <main>
+          <section id="introduction">
+            <div class="container">
+              <h2>Meet <span class="highlight">Lesly Mpate Juma</span></h2>
+              <div class="profile-container">
+                <div class="profile-content">
+                  <img
+                    src="image3.jpg"
+                    alt="Lesly, a software developer"
+                    class="profile-img"
+                  />
+                  <div id="dynamic-message-container">
+                    <p id="dynamic-message"></p>
+                  </div>
+                </div>
+              </div>
+              <p>
+                I am a highly skilled <strong>Software Developer</strong> and
+                the visionary CEO of <strong>Code MORE</strong>. With expertise
+                in <strong>Python, Django, JavaScript, and USSD applications</strong>, I build powerful, scalable, and efficient software solutions
+                that transform businesses.
+              </p>
+              <p>
+                My passion is solving real-world problems using <strong>technology</strong>—helping startups, businesses, and
+                individuals create robust applications that <strong>enhance communication, automate workflows, and increase
+                efficiency</strong>.
+              </p>
+            </div>
+          </section>
+          
+
+          <!-- About Section -->
+          <section id="about">
+            <div class="container">
+              <h2>ABOUT <span class="highlight">Code MORE</span></h2>
+              <p>
+                Code MORE is a <strong>software development brand</strong> that
+                delivers cutting-edge digital solutions. Our mission is to
+                <strong>empower businesses</strong> by creating
+                <strong
+                  >custom web applications, automation tools, and backend
+                  systems</strong
+                >
+                that drive efficiency and growth.
+              </p>
+              <p>
+                We specialize in
+                <strong>Django, API development, and USSD applications</strong>,
+                ensuring businesses can reach their customers seamlessly, even
+                in underdeveloped regions where mobile technology is limited.
+                Whether you need a
+                <strong>high-performance web platform</strong> or an
+                <strong>intelligent financial system</strong>, Code MORE is here
+                to <strong>bring your ideas to life</strong>.
+              </p>
+            </div>
+          </section>
+
+          <!-- Services Section -->
+          <section id="services">
+            <h2>Services</h2>
+            <p>
+              At "Code MORE," we offer a comprehensive suite of services
+              tailored to meet the diverse needs of our clients.
+            </p>
+          </section>
+
+          <!-- Projects Section -->
+          <section id="projects">
+            <h2>Projects</h2>
+            <p>Showcase of your previous work.</p>
+          </section>
+
+          <!-- Testimonials Section -->
+          <section id="testimonials">
+            <h2>Testimonials</h2>
+            <p>
+              "Lesly's work on our web application was exceptional! Highly
+              recommended!"
+            </p>
+            <p>- James Lucky</p>
+          </section>
+        </main>
+      </div>
+
+      <!-- Right Section (Fixed, containing the contact section and "Get In Touch" form) -->
+      <div class="right-side">
+        <!-- Contact Section (Now above the "Get In Touch" form) -->
+        <section id="contact">
+          <a
+            href="https://www.facebook.com/juma.lesly.16/"
+            target="_blank"
+            class="contact-icon"
+            title="Facebook"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/lesly-juma-210b72263/"
+            target="_blank"
+            class="contact-icon"
+            title="LinkedIn"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a
+            href="mailto:jumalesly40@gmail.com"
+            class="contact-icon"
+            title="Email"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="tel:+1234567890" class="contact-icon" title="Phone">
+            <i class="fas fa-phone-alt"></i>
+          </a>
+        </section>
+
+        <!-- "Get In Touch" form -->
+        <div class="contact-form">
+          <h3>Get In Touch</h3>
+          <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2025 Code MORE | All Rights Reserved</p>
+    </footer>
+
+    <!-- Add the script file here -->
+    <script src="scripts.js"></script>
+    <script>
+      
+    </script>
+  </body>
+</html>
