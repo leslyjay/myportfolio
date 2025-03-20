@@ -32,4 +32,12 @@ document.querySelector("#contact-btn")?.addEventListener("click", function (e) {
     contactSection.scrollIntoView({ behavior: "smooth" });
   }
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.querySelector(".menu-toggle");
+  const leftSide = document.querySelector(".left-side");
+
+  menuToggle.addEventListener("click", function () {
+    leftSide.classList.toggle("active");
+  });
+});
 
