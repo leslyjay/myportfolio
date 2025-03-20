@@ -126,7 +126,8 @@ body {
 
 /* Add Gradient Backgrounds to Individual Sections */
 #introduction {
-  background: linear-gradient(to right, #ece2a5;, #dfdea3); 
+  background: linear-gradient(to right, #ece2a5, 
+   #dfdea3) 
 }
 
 #about {
@@ -354,12 +355,18 @@ body.index-page .contact-icon:hover i {
     width: 100%;
     height: auto;
     position: relative;
+    padding: 10px;
   }
 
   .right-side {
     width: 100%;
     position: relative;
-    margin-left: 0; /* Remove left margin for mobile */
+    margin-left: 0;
+  }
+
+  .center-side {
+    width: 100%;
+    margin-left: 0;
   }
 
   .navbar {
@@ -377,7 +384,7 @@ body.index-page .contact-icon:hover i {
 
   /* Mobile adjustments to avoid spacing issues */
   #contact {
-    margin-top: 10px; /* Adjust margin */
+    margin-top: 10px;
   }
 
   .right-side .contact-icon {
